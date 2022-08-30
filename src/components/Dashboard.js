@@ -8,6 +8,7 @@ import first from "../assets/first.svg";
 import last from "../assets/last.svg";
 import previous from "../assets/previous.svg";
 import next from "../assets/next.svg";
+import Table from "./Table";
 
 const Dashboard = () => {
   const [isWarning, setIsWarning] = useState(true);
@@ -97,7 +98,7 @@ const Dashboard = () => {
             </p>
           </div>
           <div className="shadow-xl flex flex-col mt-5 text-left">
-            <div className="flex gap-10 justify-between  text-2xl text-white font-medium items-center py-6 px-4 bg-[#335075]">
+            {/* <div className="flex gap-10 justify-between  text-2xl text-white font-medium items-center py-6 px-4 bg-[#335075]">
               <p>Application type</p>
               <p>Application number</p>
               <p>Application name</p>
@@ -107,7 +108,8 @@ const Dashboard = () => {
             </div>
             <div className="flex justify-center bg-gray-100 py-6 text-2xl">
               <p>No data available in table</p>
-            </div>
+            </div> */}
+            <Table />
             <div className="flex gap-5 justify-end py-6 text-xl  font-light">
               <p className="text-gray-400">Items per page:</p>
               <select className="border-b border-b-black">
@@ -138,7 +140,7 @@ const Dashboard = () => {
             </p>
           </div>
           <div className="shadow-xl flex flex-col mt-5 text-left">
-            <div className="flex gap-10 justify-between text-2xl text-white font-medium items-center py-6 px-4 bg-[#335075]">
+            {/* <div className="flex gap-10 justify-between text-2xl text-white font-medium items-center py-6 px-4 bg-[#335075]">
               <p>Application type</p>
               <p>Date created</p>
               <p>Days left to submit</p>
@@ -147,7 +149,8 @@ const Dashboard = () => {
             </div>
             <div className="flex justify-center bg-gray-100 py-6 text-2xl">
               <p>No data available in table</p>
-            </div>
+            </div> */}
+            <Table />
             <div className="flex gap-5 justify-end py-6 text-xl  font-light">
               <p className="text-gray-400">Items per page:</p>
               <select className="border-b border-b-black">
