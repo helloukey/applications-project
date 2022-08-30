@@ -7,6 +7,14 @@ import first from "../assets/first.svg";
 import previous from "../assets/previous.svg";
 import next from "../assets/next.svg";
 import last from "../assets/last.svg";
+import icon1 from "../assets/details-icon/icon1.png";
+import icon2 from "../assets/details-icon/icon2.png";
+import icon3 from "../assets/details-icon/icon3.png";
+import icon4 from "../assets/details-icon/icon4.png";
+import icon5 from "../assets/details-icon/icon5.png";
+import icon6 from "../assets/details-icon/icon6.png";
+import icon7 from "../assets/details-icon/icon7.png";
+import question from "../assets/details-icon/question-icon.png";
 
 const ApplicationDetails = () => {
   return (
@@ -126,61 +134,61 @@ const ApplicationDetails = () => {
             out the current status of each application step.
           </p>
           <div className="flex items-center gap-4 mt-5">
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={icon1} alt="icon1" className="w-8 h-8" />
             <p className="text-xl font-bold">Review of eligibility</p>
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={question} alt="question" className="w-5 h-5" />
           </div>
           <li className="text-lg mt-3 list-disc ml-2 font-medium">
             Your application is in progress. We will send you a message when we
             start reviewing your eligibility.
           </li>
           <div className="flex items-center gap-4 mt-5">
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={icon2} alt="icon2" className="w-8 h-8" />
             <p className="text-xl font-bold">Review of medical results</p>
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={question} alt="question" className="w-5 h-5" />
           </div>
           <li className="text-lg mt-3 list-disc ml-2 font-medium">
             You do not need a medical exam. We will send you a message if this
             changes.
           </li>
           <div className="flex items-center gap-4 mt-5">
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={icon3} alt="icon3" className="w-8 h-8" />
             <p className="text-xl font-bold">Review of additional documents</p>
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={question} alt="question" className="w-5 h-5" />
           </div>
           <li className="text-lg mt-3 list-disc ml-2 font-medium">
             We do not need additional documents.
           </li>
           <div className="flex items-center gap-4 mt-5">
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={icon4} alt="icon4" className="w-8 h-8" />
             <p className="text-xl font-bold">Interview</p>
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={question} alt="question" className="w-5 h-5" />
           </div>
           <li className="text-lg mt-3 list-disc ml-2 font-medium">
             You do not need a interview. We will send you a message if this
             changes.
           </li>
           <div className="flex items-center gap-4 mt-5">
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={icon5} alt="icon5" className="w-8 h-8" />
             <p className="text-xl font-bold">Biometrics</p>
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={question} alt="question" className="w-5 h-5" />
           </div>
           <li className="text-lg mt-3 list-disc ml-2 font-bold">
             August 5, 2022 <span className="font-medium">Completed</span>
           </li>
           <div className="flex items-center gap-4 mt-5">
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={icon6} alt="icon6" className="w-8 h-8" />
             <p className="text-xl font-bold">Background check</p>
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={question} alt="question" className="w-5 h-5" />
           </div>
           <li className="text-lg mt-3 list-disc ml-2 font-medium">
             We are processing your background check. We will send you a message
             if we need more information.
           </li>
           <div className="flex items-center gap-4 mt-5">
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={icon7} alt="icon7" className="w-8 h-8" />
             <p className="text-xl font-bold">Final decision</p>
-            <img src={cross} alt="cross" className="w-5 h-5" />
+            <img src={question} alt="question" className="w-5 h-5" />
           </div>
           <li className="text-lg mt-3 list-disc ml-2 font-medium">
             Your applicant is in progress. We will send you a message once the
