@@ -71,12 +71,15 @@ const Terms = () => {
         </div>
         {/* Agreement Buttons */}
         <div className="flex items-center gap-4">
-          <button className="transition duration-300 px-4 py-3 rounded-lg font-medium text-white bg-[#335075] border-2 border-white hover:border-[#335075]">
+          <Link
+            to="/dashboard"
+            className="transition duration-300 px-4 py-3 rounded-lg font-medium text-white bg-[#335075] border-2 border-white hover:border-[#335075]"
+          >
             I accept
-          </button>
-          <button className="transition duration-300 px-4 py-3 rounded-lg font-medium text-[#335075] bg-gray-100 border-2 border-white hover:border-[#335075]">
+          </Link>
+          <Link to="#" className="transition duration-300 px-4 py-3 rounded-lg font-medium text-[#335075] bg-gray-100 border-2 border-white hover:border-[#335075]">
             I do not accept
-          </button>
+          </Link>
         </div>
         {/* Date Modified Container */}
         <div className="mt-8 flex flex-nowrap">

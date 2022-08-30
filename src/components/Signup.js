@@ -137,9 +137,9 @@ const Signup = () => {
             </div>
             {/* Submit Button */}
             <div className="mt-10">
-              <button className="w-2/4 text-xl py-4 px-4 bg-gray-200 text-gray-400 rounded-lg">
+              <Link to="/terms" className="w-2/4 text-xl py-4 px-4 bg-gray-200 text-gray-400 rounded-lg">
                 Sign in
-              </button>
+              </Link>
             </div>
           </div>
         </form>

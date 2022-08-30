@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 // assets
-import cross from "../assets/cross.svg";
 import search from "../assets/search.svg";
 import first from "../assets/first.svg";
 import previous from "../assets/previous.svg";
@@ -49,7 +48,7 @@ const ApplicationDetails = () => {
           <h1 className="text-[38px] font-medium">Application status</h1>
         </div>
         {/* Additional documents text */}
-        <div className="flex gap-5 text-xl font-semibold my-4">
+        <div className="flex gap-5 text-xl font-normal my-4">
           <p>Check the status and review the status of your application.</p>
           <Link to="#" className="text-[#335075] underline">
             How to submit additional documents.
@@ -58,7 +57,7 @@ const ApplicationDetails = () => {
         {/* Application Status & Information */}
         <div className="flex gap-8 my-8 text-left">
           <div className="shadow-md w-2/4 h-fit">
-            <p className="text-4xl font-semibold bg-gray-200 p-3">
+            <p className="text-[34px] font-semibold bg-[#eaebed] p-3">
               Application Status
             </p>
             <p className="text-xl font-normal my-5 px-3">
@@ -72,7 +71,7 @@ const ApplicationDetails = () => {
             </p>
           </div>
           <div className="shadow-md w-2/4">
-            <p className="text-4xl font-semibold bg-gray-200 p-3">
+            <p className="text-[34px] font-semibold bg-[#eaebed] p-3">
               Applicant information
             </p>
             <p className="text-xl font-bold mb-2 mt-5 px-3">
@@ -106,18 +105,18 @@ const ApplicationDetails = () => {
         </div>
         {/* Estimated Remaining Time */}
         <div className="py-8 border-t-2 border-b-2 border-gray-300 text-left">
-          <p className="mb-3 text-3xl font-bold">
+          <p className="mb-3 text-[34px] font-semibold">
             Estimated remaining processing time
           </p>
-          <div className="py-4 bg-gray-300"></div>
+          <div className="py-4 bg-[#c2cbd6]"></div>
           <div className="flex justify-between py-3">
             <p className="font-bold text-xl">
               Application recieved:{" "}
               <span className="font-medium">July 29, 2022</span>
             </p>
-            <p className="font-bold">Estimated completion date*</p>
+            <p className="font-bold text-xl">Estimated completion date*</p>
           </div>
-          <p className="text-xl font-medium my-5">
+          <p className="text-xl font-normal my-5">
             * The estimated processing time may change depending on how many
             applications we receive and other factors. This progress bar show
             the time elapsed since we received your application.
@@ -125,91 +124,91 @@ const ApplicationDetails = () => {
         </div>
         {/* Details about application status */}
         <div className="py-8 text-left">
-          <p className="mb-3 text-3xl font-bold">
+          <p className="mb-3 text-[34px] font-semibold">
             Details about your application status
           </p>
-          <p className="text-xl font-medium my-3">
+          <p className="text-xl font-normal my-3">
             When we get your application, there are a series of steps it may go
             through before we make a decision. Use the following table to find
             out the current status of each application step.
           </p>
           <div className="flex items-center gap-4 mt-5">
             <img src={icon1} alt="icon1" className="w-8 h-8" />
-            <p className="text-xl font-bold">Review of eligibility</p>
+            <p className="text-2xl font-semibold">Review of eligibility</p>
             <img src={question} alt="question" className="w-5 h-5" />
           </div>
-          <li className="text-lg mt-3 list-disc ml-2 font-medium">
+          <li className="text-xl mt-3 list-disc ml-2 font-normal">
             Your application is in progress. We will send you a message when we
             start reviewing your eligibility.
           </li>
           <div className="flex items-center gap-4 mt-5">
             <img src={icon2} alt="icon2" className="w-8 h-8" />
-            <p className="text-xl font-bold">Review of medical results</p>
+            <p className="text-2xl font-semibold">Review of medical results</p>
             <img src={question} alt="question" className="w-5 h-5" />
           </div>
-          <li className="text-lg mt-3 list-disc ml-2 font-medium">
+          <li className="text-xl mt-3 list-disc ml-2 font-normal">
             You do not need a medical exam. We will send you a message if this
             changes.
           </li>
           <div className="flex items-center gap-4 mt-5">
             <img src={icon3} alt="icon3" className="w-8 h-8" />
-            <p className="text-xl font-bold">Review of additional documents</p>
+            <p className="text-2xl font-semibold">Review of additional documents</p>
             <img src={question} alt="question" className="w-5 h-5" />
           </div>
-          <li className="text-lg mt-3 list-disc ml-2 font-medium">
+          <li className="text-xl mt-3 list-disc ml-2 font-normal">
             We do not need additional documents.
           </li>
           <div className="flex items-center gap-4 mt-5">
             <img src={icon4} alt="icon4" className="w-8 h-8" />
-            <p className="text-xl font-bold">Interview</p>
+            <p className="text-2xl font-semibold">Interview</p>
             <img src={question} alt="question" className="w-5 h-5" />
           </div>
-          <li className="text-lg mt-3 list-disc ml-2 font-medium">
+          <li className="text-xl mt-3 list-disc ml-2 font-normal">
             You do not need a interview. We will send you a message if this
             changes.
           </li>
           <div className="flex items-center gap-4 mt-5">
             <img src={icon5} alt="icon5" className="w-8 h-8" />
-            <p className="text-xl font-bold">Biometrics</p>
+            <p className="text-2xl font-semibold">Biometrics</p>
             <img src={question} alt="question" className="w-5 h-5" />
           </div>
-          <li className="text-lg mt-3 list-disc ml-2 font-bold">
-            August 5, 2022 <span className="font-medium">Completed</span>
+          <li className="text-xl mt-3 list-disc ml-2 font-normal">
+          We need your fingerprints to process your application. Check your messages below for details.
           </li>
           <div className="flex items-center gap-4 mt-5">
             <img src={icon6} alt="icon6" className="w-8 h-8" />
-            <p className="text-xl font-bold">Background check</p>
+            <p className="text-2xl font-semibold">Background check</p>
             <img src={question} alt="question" className="w-5 h-5" />
           </div>
-          <li className="text-lg mt-3 list-disc ml-2 font-medium">
+          <li className="text-xl mt-3 list-disc ml-2 font-normal">
             We are processing your background check. We will send you a message
             if we need more information.
           </li>
           <div className="flex items-center gap-4 mt-5">
             <img src={icon7} alt="icon7" className="w-8 h-8" />
-            <p className="text-xl font-bold">Final decision</p>
+            <p className="text-2xl font-semibold">Final decision</p>
             <img src={question} alt="question" className="w-5 h-5" />
           </div>
-          <li className="text-lg mt-3 list-disc ml-2 font-medium">
+          <li className="text-xl mt-3 list-disc ml-2 font-normal">
             Your applicant is in progress. We will send you a message once the
             final decision has been made.
           </li>
         </div>
         {/* Messages about your application */}
         <div className="text-left">
-          <p className="text-3xl font-bold mb-8">
+          <p className="text-[34px] font-semibold mb-8">
             Messages about your application
           </p>
           <div className="relative mr-6 my-2 flex w-fit">
             <input
               type="search"
-              class="bg-purple-white shadow rounded border-2 p-3"
+              class="text-xl bg-purple-white border-black rounded border py-5 px-3"
               placeholder="Search"
             />
             <img
               src={search}
               alt="search"
-              className="w-4 h-4 absolute right-4 top-4"
+              className="w-4 h-4 absolute right-4 top-7"
             />
           </div>
         </div>
@@ -225,7 +224,7 @@ const ApplicationDetails = () => {
             </thead>
             <tbody>
               <tr className="bg-gray-100">
-                <td className="text-[#335075] underline font-bold text-lg py-8 px-4 border-2 border-gray-200">
+                <td className="text-[#335075] cursor-pointer underline font-bold text-lg py-8 px-4 border-2 border-gray-200">
                   Biometrics Collection Letter
                 </td>
                 <td className="font-semibold text-lg py-8 px-4 border-2 border-gray-200">
@@ -236,7 +235,7 @@ const ApplicationDetails = () => {
                 </td>
               </tr>
               <tr>
-                <td className="text-[#335075] underline font-bold text-lg py-8 px-4 border-2 border-gray-200">
+                <td className="text-[#335075] cursor-pointer underline font-bold text-lg py-8 px-4 border-2 border-gray-200">
                   Client Application Summary
                 </td>
                 <td className="font-semibold text-lg py-8 px-4 border-2 border-gray-200">
@@ -247,7 +246,7 @@ const ApplicationDetails = () => {
                 </td>
               </tr>
               <tr className="bg-gray-100">
-                <td className="text-[#335075] underline font-bold text-lg py-8 px-4 border-2 border-gray-200">
+                <td className="text-[#335075] cursor-pointer underline font-bold text-lg py-8 px-4 border-2 border-gray-200">
                   Submission Confirmation
                 </td>
                 <td className="font-semibold text-lg py-8 px-4 border-2 border-gray-200">
@@ -258,7 +257,7 @@ const ApplicationDetails = () => {
                 </td>
               </tr>
               <tr>
-                <td className="text-[#335075] underline font-bold text-lg py-8 px-4 border-2 border-gray-200">
+                <td className="text-[#335075] cursor-pointer underline font-bold text-lg py-8 px-4 border-2 border-gray-200">
                   Confirmation of Online Application Transmission
                 </td>
                 <td className="font-semibold text-lg py-8 px-4 border-2 border-gray-200">
