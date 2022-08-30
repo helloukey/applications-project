@@ -14,8 +14,12 @@ import icon5 from "../assets/details-icon/icon5.png";
 import icon6 from "../assets/details-icon/icon6.png";
 import icon7 from "../assets/details-icon/icon7.png";
 import question from "../assets/details-icon/question-icon.png";
+import { useEffect } from "react";
 
 const ApplicationDetails = () => {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[])
   return (
     <div className="w-full">
       <div className="w-8/12 mx-auto py-5">
