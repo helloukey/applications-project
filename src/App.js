@@ -6,6 +6,7 @@ import SignupPage from "./pages/SignupPage";
 import TermsPage from "./pages/TermsPage";
 import DashboardPage from "./pages/DashboardPage";
 import Table from "./components/Table";
+import ApplicationDetailsPage from "./pages/ApplicationDetailsPage";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/terms" element={<TermsPage /> }/>
         <Route path="/dashboard" element={<DashboardPage /> }/>
         <Route path="/table" element={<Table /> }/>
+        <Route path="/application-details" element={<ApplicationDetailsPage /> }/>
       </Routes>
     </div>
   );

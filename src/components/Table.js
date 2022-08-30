@@ -36,7 +36,7 @@ const Table = () => {
                   {item.status}
                 </td>
                 <td className="font-semibold text-lg text-[#335075] underline py-8 px-4 border-2 border-gray-200">
-                  <Link to={`/details/${item.action}`}>
+                  <Link to={`/application-details`}>
                     Check full application status
                   </Link>
                 </td>
