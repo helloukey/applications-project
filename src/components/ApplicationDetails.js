@@ -216,7 +216,7 @@ const ApplicationDetails = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr className="bg-gray-100">
                 <td className="text-[#335075] underline font-bold text-lg py-8 px-4 border-2 border-gray-200">
                   Biometrics Collection Letter
                 </td>
@@ -238,7 +238,7 @@ const ApplicationDetails = () => {
                   July 30, 2022
                 </td>
               </tr>
-              <tr>
+              <tr className="bg-gray-100">
                 <td className="text-[#335075] underline font-bold text-lg py-8 px-4 border-2 border-gray-200">
                   Submission Confirmation
                 </td>
